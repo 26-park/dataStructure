@@ -5,7 +5,7 @@
 #include <iostream>
 
 // TODO: T 타입을 적절한 타입으로 변경
-void print(T &list) { list.print(); }
+void print(LinkedList &list) { list.print(); }
 
 void testQueue() {
   Queue queue;
@@ -27,7 +27,7 @@ void testQueue() {
 
 void testStack() {
   Stack stack;
-
+  
   for (int i = 0; i < 10; i++)
     stack.push(i);
 
